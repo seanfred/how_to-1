@@ -5,6 +5,6 @@
   <%= @problem.scenario %>
 </p>
 
-
+<%= link_to 'Create Step', url_for([@problem, @step]) %> |
 <%= link_to 'Edit', edit_problem_path(@problem) %> |
 <%= link_to 'Back', problems_path %>

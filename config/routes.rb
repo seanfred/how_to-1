@@ -1,8 +1,5 @@
 HowTo::Application.routes.draw do
 
-  resources :steps
-
-
   resources :problems do
     resources :steps
   end
