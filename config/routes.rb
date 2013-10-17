@@ -3,7 +3,7 @@ HowTo::Application.routes.draw do
   resources :problems do
     resources :steps
   end
-  root to: 'static_pages#index'
+  root to: 'problems#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
