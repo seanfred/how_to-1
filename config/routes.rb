@@ -1,4 +1,7 @@
 HowTo::Application.routes.draw do
+  resources :solutions
+
+
   resources :problems
 
   root to: 'static_pages#index'
